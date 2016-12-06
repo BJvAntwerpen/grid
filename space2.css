@@ -5,42 +5,63 @@
 		
 		#frame {
 			background-color: rgba(255,200,200,0.3);
+			width: 1021px;
+			margin: 0 auto;
+			padding: 10px;
 		}
 		
 		header nav ul {
 			list-style-type: none;
 			background-color: rgba(255,255,200,0.3);
+			padding: 7px;
+			height: 26px;
 		}
 		
 		#content {
-			
+			display: flex;
 		}
 		
 		nav li {
-			
+			display: inline;
 		}
 		
 		nav li a {
+			text-decoration: none;
+			color: black;
+			font-weight: bold;
+			margin-left: -365px;
+			padding-right: 375px;
 		}
 		
 		main{
 			border: 1px black solid;
 			background-color: rgba(200,200,255,0.3);
+			width: 673px;
+			padding: 10px 10px 10px 8px;
+			position: relative;
 		}
 		
 		aside{
 			border: 1px black solid;
 			background-color: rgba(200,255,200,0.3);
+			width: 328px;
+			height: 426px;
+			padding: 10px 10px 0 10px;
 		}
 		
 		body article {
 			background-color: rgba(200,200,200,0.6);
+			height: 80px;
 		}
 		
 		header {
+			text-align: center;
+			margin: 0 0 20px 0;
 		}
 		
 		footer {
 			background-color: rgba(255,255,200,0.3);
+			text-align: center;
+			font-weight: bold;
 		}
 	
